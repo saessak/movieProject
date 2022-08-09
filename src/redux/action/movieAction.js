@@ -27,10 +27,11 @@ function getMovies(){
                     popularMovies:popularMovies.data, 
                     topRatedMovies: topRatedMovies.date, 
                     upComingMovies:upComingMovies.data,
-                    genreList:genreApi.data.genres,
+                    genreList:genreList.data.genres,
                 }
             })   
         }catch(error){
+
             //에러 핸들링
             dispatch({
                 type:"GET_MOVIES_FAILURE",

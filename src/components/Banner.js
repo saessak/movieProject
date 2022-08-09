@@ -8,7 +8,7 @@ const Banner = ({movie}) => {
       style={{
           backgroundImage: "url(" + `https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces${movie.poster_path}` + ")",
       }}>
-        <div class="banner-info">
+        <div className="banner-info">
           <h1>{movie.title}</h1>
           <p>{movie.overview}</p>
         </div>
