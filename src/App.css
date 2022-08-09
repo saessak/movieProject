@@ -1,2 +1,13 @@
+body{background-color:black !important; color:#fff !important}
+
 .nav-item{color:#fff;padding:0 10px;text-decoration:none;}
 .nav-item:hover{color:#fff;}
+
+.banner{position:relative;display:flex;align-items:center;height:600px;padding:0 20px;background-position:center;}
+.banner::before{position:absolute;left:0;width:100%;height:100%;content:'';background:linear-gradient(to right, black, transparent)}
+.banner-info{z-index:1;width:70%;}
+.banner-info h1{font-weight:bold;}
+
+.movie-card{width:300px;height:200px;}
+.overlay{opacity:0;width:100%;height:100%;background:rgba(43,41,41,0.9)}
+.overlay:hover{opacity:1;}
